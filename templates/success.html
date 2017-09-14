@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Success!</title>
+        <!-- <link rel="stylesheet" href="../static/css/successStyle.css"> -->
+        <link rel="stylesheet" href="{{url_for('static',filename='css/successStyle.css')}}">
+    </head>
+    <body>
+        Welcome, {{ session['firstName'] }} {{ session['lastName'] }}. Thanks for logging in!
+    </body>
+</html>

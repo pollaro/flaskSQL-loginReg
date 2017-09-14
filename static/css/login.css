@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    text-align: right;
+}
+
+input{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#regBox, #loginBox{
+    text-align: left;
+    border: thin solid black;
+    display: inline-block;
+    padding: 2%;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 16pt;
+}
